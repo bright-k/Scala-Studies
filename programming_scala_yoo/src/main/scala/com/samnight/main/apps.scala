@@ -1,10 +1,14 @@
 package com.samnight.main
 
-import com.samnight.function.sampleFn
+import com.samnight.function.{foreachFn, sampleFn}
 
 object apps {
 
   def main(args: Array[String]) = {
-    println(sampleFn.captials("Japan"))
+    foreachFn.printList;
+
+    foreachFn.sumforeach;
+
+    print(foreachFn.strConcatForeach(List("abc","def","ghi")));
   }
 }
